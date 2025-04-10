@@ -1,0 +1,16 @@
+h1 {
+    font-family: 'Special Gothic Condensed One', sans-serif;
+    color: #31305c
+}
+
+p {
+    font-family: 'Quicksand', sans-serif;
+}
+
+
+.hero {
+    background: url('../images/hero.png') center center fixed;
+    background-size: cover;
+    color: #FFEBD4;
+    padding: 8rem 0;
+}
