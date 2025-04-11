@@ -1,16 +1,69 @@
+/* Global styles */
+html,
+body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Navbar */
+#navbar {
+    background-color: #31305c;
+}
+
 h1 {
     font-family: 'Special Gothic Condensed One', sans-serif;
-    color: #31305c
+    color: #31305c;
 }
 
 p {
     font-family: 'Quicksand', sans-serif;
 }
 
+#logo {
+    width: 30px;
+    height: 30px;
+}
 
+/* The hero image */
 .hero {
-    background: url('../images/hero.png') center center fixed;
-    background-size: cover;
-    color: #FFEBD4;
-    padding: 8rem 0;
+    background: url('../Images/Hero.png') center/cover no-repeat;
+    height: 100vh;
+    /* Full height of the viewport */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+
+
+
+
+/* Footer */
+#social-networks {
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+#social-networks i {
+    font-size: 160%;
+    padding: 5%;
+    color: #83b27e;
+}
+
+#contact {
+    background-color: #31305c;
+}
+
+body,
+html {
+    height: 100%;
 }
