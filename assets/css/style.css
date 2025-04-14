@@ -10,12 +10,7 @@ body {
     flex-direction: column;
 }
 
-/* Navbar */
-#navbar {
-    background-color: #31305c;
-}
-
-h1 {
+h1, h2, h3, h4, h5, h6 {
     font-family: 'Special Gothic Condensed One', sans-serif;
     color: #31305c;
 }
@@ -29,19 +24,29 @@ p {
     height: 30px;
 }
 
+/* Navbar */
+#navbar {
+    background-color: #31305c;
+}
+
+
+
 /* The hero image */
 .hero {
     background: url('../Images/Hero.png') center/cover no-repeat;
     height: 100vh;
     /* Full height of the viewport */
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     color: white;
 }
 
-
-
+#hero-text {
+    text-shadow: rgba(235,232,240,0.9) 0px 0px 46px;
+    font-size: 115px;
+}
 
 
 /* Footer */
