@@ -17,7 +17,7 @@
     <link href="assets/css/style.css" rel="stylesheet">
     <title>Nuclear Energy Now</title>
     <style>
-        
+
 
     </style>
 
@@ -48,34 +48,58 @@
                         <a class="nav-link" href="myth-vs-fact.html">Myth vs Fact</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="about.html">About</a>
+                        <a class="nav-link" href="about.html">About</a>
                     </li>
                 </ul>
-                <a href="join-us.html" id="navjoin" class="btn btn-primary ms-3">Join Us</a>
+                <a href="join-us.html active" aria-current="page" id="navjoin" class="btn btn-primary ms-3">Join Us</a>
             </div>
         </div>
     </nav>
-    
+
+    <!-- header section -->
+    <header id="header" class="container section">
+        <div class="row justify-content-center">
+            <div class="col-12 col-md-8 text-center text-xl-start">
+                <h1 class="display-3">Nuclear Energy Now</h1>
+                <p class="my-4">
+                    Thank you for wanting to make a difference by joining us! Subscribe to our mailing list to stay updated on the latest news on nuclear energy. Looking for volunteer or work for us? Please state   
+                </p>
+            </div>
+        </div>
+    </header>
+
     <!--Main content-->
     <main>
-        <section id="about" class="py-5 bg-light">
-            <div class="container text-center">
-              <h1 class="mb-4">About Us</h1>
-              <p class="lead">
-                At <strong>Nuclear Energy Now</strong>, we are dedicated to educating the public on the vital role of nuclear energy in building a cleaner, more prosperous future. Misinformation has long clouded discussions around nuclear power, but we aim to cut through the noise with facts, evidence, and clarity.
-              </p>
-              <p>
-                Nuclear energy is the most reliable and power-dense clean energy source available today. Unlike intermittent renewables, it provides consistent, carbon-free power—day and night, in any weather. By embracing nuclear energy, we can accelerate the transition to a low-carbon, abundant-energy future.
-              </p>
-              <p>
-                Join us in dispelling myths, advocating for innovation, and shaping a future powered by science, sustainability, and nuclear excellence.
-              </p>
+        <!-- Mailing list form section -->
+        <section id="mailing-list-form" class="container section">
+            <div class="row justify-content-center">
+                <div class="col-12 col-md-8">
+                    <h2>Join our mailing list</h2>
+                    <form action="success.html" method="GET">
+                        <div class="row">
+                            <div class="col-12 col-lg-6 mb-3">
+                                <label for="name" class="form-label">Name</label>
+                                <input class="form-control" id="name" name="name" type="text" required>
+                            </div>
+                            <div class="col-12 col-lg-6 mb-3">
+                                <label for="email" class="form-label">Email</label>
+                                <input class="form-control" id="email" name="email" type="email" required>
+                            </div>
+                            <div class="col-12 col-lg-6 mb-3">
+                                <label for="phone" class="form-label">Phone number</label>
+                                <input class="form-control" id="phone" name="phone" type="number" required>
+                            </div>
+                            <div class="col-12 mb-3">
+                                <label for="message" class="form-label">Message</label>
+                                <textarea class="form-control" rows="6" id="message" name="message" required></textarea>
+                            </div>
+                        </div>
+
+                        <button type="submit" class="btn custom-button-outline mb-4">Submit</button>
+                    </form>
+                </div>
             </div>
-          </section>
-          
-          <!-- Bootstrap CSS Link -->
-          <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
-       
+        </section>
     </main>
 
     <!--Footer-->
