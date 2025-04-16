@@ -20,15 +20,27 @@ p {
 }
 
 #logo {
-    width: 30px;
-    height: 30px;
+    width: 40px;
+    height: 40px;
 }
 
 /* Navbar */
 #navbar {
     background-color: #31305c;
+    font-family: 'Quicksand', sans-serif;
+    max-height: 56px;
 }
 
+#navbar a {
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+
+#navjoin {
+    background-color: #83b27e;
+    border-color: transparent;
+}
 
 /* The hero image */
 .hero {
@@ -64,21 +76,21 @@ p {
     align-items: flex-end;
     justify-content: space-around;
     width: 600px;
-    height: 1000px;
+    height: 950px;
     background: #f4f4f4;
     padding: 20px;
     border: 2px solid #ccc;
     position: relative;
     overflow: hidden;
-
 }
 
 .bar {
-    width: 80px;
+    width: 100px;
     text-align: center;
     font-weight: bold;
-    color: white;
-    padding-top: 5px;
+    color: black;
+    padding-top: 4px;
+    margin: 0 10px;
 }
 
 .label {
