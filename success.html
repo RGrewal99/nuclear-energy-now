@@ -17,7 +17,7 @@
     <link href="assets/css/style.css" rel="stylesheet">
     <title>Nuclear Energy Now</title>
     <style>
-
+        
 
     </style>
 
@@ -48,70 +48,24 @@
                         <a class="nav-link" href="myth-vs-fact.html">Myth vs Fact</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="about.html">About</a>
+                        <a class="nav-link active" aria-current="page" href="about.html">About</a>
                     </li>
                 </ul>
-                <a href="join-us.html active" aria-current="page" id="navjoin" class="btn btn-primary ms-3">Join Us</a>
+                <a href="join-us.html" id="navjoin" class="btn btn-primary ms-3">Join Us</a>
             </div>
         </div>
     </nav>
-
-    <!-- header section -->
-    <header id="header" class="container section">
-        <div class="row justify-content-center">
-            <div class="col-12 col-md-8 text-center text-xl-start">
-                <h1 class="display-3 justify-content-center">Nuclear Energy Now</h1>
-                <p class="my-4">
-                    Thank you for wanting to make a difference by joining us! Subscribe to our mailing list to stay updated on the latest news on nuclear energy. If you're interested in volunteering or working with us, please select below what you're looking. We hope to talk to you soon!  
-                </p>
-            </div>
-        </div>
-    </header>
-
-    <!--Main content-->
-    <main>
-        <!-- Mailing list form section -->
-        <section id="mailing-list-form" class="container section">
-            <div class="row justify-content-center">
-                <div class="col-12 col-md-8">
-                    <h2>Please enter your details</h2>
-                    <form action="success.html" method="GET">
-                        <div class="row">
-                            <div class="col-12 col-lg-6 mb-3">
-                                <label for="name" class="form-label">Name</label>
-                                <input class="form-control" id="name" name="name" type="text" required>
-                            </div>
-                            <div class="col-12 col-lg-6 mb-3">
-                                <label for="email" class="form-label">Email</label>
-                                <input class="form-control" id="email" name="email" type="email" required>
-                            </div>
-                            <div class="col-12 col-lg-6 mb-3">
-                                <label for="phone" class="form-label">Phone number</label>
-                                <input class="form-control" id="phone" name="phone" type="number" required>
-                            </div>
-                            <div class="col-12 col-lg-6 mb-3">
-                                <label for="enquiry-type" class="form-label">Inquiry</label>
-                                <select id="enquiry-type" class="form-select" name="enquiry-type" required>
-                                    <option value="" selected>Select</option>
-                                    <option value="mailing-list">Mailing list</option>
-                                    <option value="volunteering">Volunteering</option>
-                                    <option value="work-opportunities">Work opportunities</option>
-                                    <option value="donate">Donate</option>
-                                    <option value="other">Other</option>
-                                </select>
-                            </div>
-                            <div class="col-12 mb-3">
-                                <label for="message" class="form-label">Message</label>
-                                <textarea class="form-control" rows="6" id="message" name="message"></textarea>
-                            </div>
-                        </div>
     
-                        <button type="submit" class="btn btn-primary ms-auto">Submit</button>
-                    </form>
-                </div>
-            </div>
-        </section>
-    </main>
+    <!--Main content-->
+    <main id="success" class="container section text-center py-5">
+        <div class="row justify-content-center">
+          <div class="col-12 col-md-8">
+            <h1 class="display-3">Thank you</h1>
+            <p class="lead">We'll be in touch as soon as we can!</p>
+            <a href="index.html" class="btn btn-primary btn-lg mb-5">Return to the home page</a>
+          </div>
+        </div>
+      </main>
 
     <!--Footer-->
     <footer id="contact" class="mt-auto">
