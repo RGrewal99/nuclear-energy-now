@@ -82,10 +82,11 @@ p {
 /* Footer */
 #social-networks {
     text-align: center;
-    padding: 10px;
+    padding: 15px;
     display: flex;
     justify-content: space-evenly;
     list-style-type: none;
+    margin-bottom: 0px;
 }
 
 #social-networks i {
