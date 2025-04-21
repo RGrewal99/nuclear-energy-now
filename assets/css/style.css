@@ -32,9 +32,10 @@ p {
 }
 
 #navbar a {
-    color: lightgrey;
+    color: black;
     text-decoration: none;
     display: block;
+    font-size: 20px;
 }
 
 #navjoin {
