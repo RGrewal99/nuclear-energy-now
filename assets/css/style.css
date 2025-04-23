@@ -98,6 +98,10 @@ p {
     color: #83b27e;
 }
 
+#social-networks i:hover {
+    color: #a1d49a; /* Lighter shade of #83b27e */
+}
+
 #contact {
     background-color: #31305c;
 }
