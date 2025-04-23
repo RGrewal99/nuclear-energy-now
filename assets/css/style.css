@@ -24,11 +24,19 @@ p {
     height: 40px;
 }
 
+#logo {
+    max-height: 40px; /* or your preferred size */
+  }
+  .navbar-brand {
+    margin-right: 0; /* override Bootstrap default if needed */
+  }
+  
+
 /* Navbar */
 #navbar {
     background-color: #31305c;
     font-family: 'Quicksand', sans-serif;
-    max-height: 56px;
+    max-height: 65px;
 }
 
 #navbar a {
